@@ -56,8 +56,6 @@ class StaticOrchestrator:
         overrides: Overrides = Overrides(),
     ) -> BotResponse:
         log_properties = StaticOrchestratorLog()
-        # Why was the AI so good at poker?
-        # Because it had a great poker face... and access to everyone else's hand histories. (Just kidding... mostly.)
         try:
             final_answer = None
             execution = {}
